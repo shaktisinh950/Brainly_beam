@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Download Indian Cities</title>
+    <style>
+      .download-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 20px;
+      }
+      .download-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Download Indian Cities List</h1>
+    <a href="{% url 'export_indian_cities' %}" class="download-button">
+      Download CSV
+    </a>
+  </body>
+</html>
